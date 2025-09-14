@@ -36,3 +36,56 @@ body{
     color: #a9a29a;
 
 }
+#mainSection{
+    height:54.1rem ;
+    background-color: red;
+
+}
+#footerbar{
+    height: 25rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+#footerContent1{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #F5ECE0;
+    list-style: none;
+    
+
+}
+#footerContent2{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #F5ECE0;
+    list-style: none;
+    
+
+}
+#footerContent3{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #F5ECE0;
+    list-style: none;
+
+}
+#locationSvg{
+    height: 2rem;
+}
+#envelopSvg{
+    height: 2rem;
+}
+#phoneSvg{
+    height: 2rem;
+}
+
+
