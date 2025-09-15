@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 *{
     margin: 0;
@@ -26,9 +27,12 @@ body{
     list-style: none;
     color: #F5ECE0;
     gap: 4rem;
-    font-family: "Comic Relief", system-ui;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
     font-size: 1.2rem;
     cursor: pointer;
 }
@@ -42,50 +46,139 @@ body{
 
 }
 #footerbar{
-    height: 25rem;
+    height: 18rem;
     background-color: black;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 20rem;
+    justify-content: center;
+ 
+    
+    
+    
+
+    gap: 2rem;
 }
-#footerContent1{
-    font-family: "Comic Relief", system-ui;
+#footerContent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 3rem;
+}
+#footerContent0{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3rem;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 1rem;
+    color: #F5ECE0;
+    margin-left: 5rem;
+    
+    list-style: none;
+
+}
+#footerContent1{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 1rem;
     color: #F5ECE0;
     list-style: none;
+    
+    
     
 
 }
 #footerContent2{
-    font-family: "Comic Relief", system-ui;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3rem;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 1rem;
+    color: #F5ECE0;
+    list-style: none;
+                                
+    
+
+}
+#footerContent3{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 1rem;
     color: #F5ECE0;
     list-style: none;
     
 
 }
-#footerContent3{
-    font-family: "Comic Relief", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.3rem;
-    color: #F5ECE0;
-    list-style: none;
-
-}
 #locationSvg{
-    height: 2rem;
+    height: 1.5rem;
 }
 #envelopSvg{
-    height: 2rem;
+    height: 1.5rem;
 }
 #phoneSvg{
-    height: 2rem;
+    height: 1.5rem;
 }
+#List1Item1{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+#List1Item{
+    margin-bottom: 0.5rem;
+}
+#List2Item1{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+#List2Item{
+    margin-bottom: 0.5rem;
+}
+#List3Item1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+#List3Item2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+#List3Item3{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+
+}
+#List3Item4{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
 
 
+}
+#copyRight{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: #969696;
+    
+}
