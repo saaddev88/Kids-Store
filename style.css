@@ -12,7 +12,7 @@ body{
 }
 #navBar{
     background-color: #3674B5;
-    height: 6rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,11 +41,13 @@ body{
 
 }
 #mainSection{
-    height:50rem ;
+    height:80rem ;
     background-color: #F5ECE0;
     display: flex;
     justify-content: center;
     align-items: start;
+    display: grid;
+    grid-template-rows: repeat(2,40rem);
 
 }
 #footerbar{
@@ -187,19 +189,19 @@ body{
 }
 
 #allitems{
-    height: 40rem;
+    height: 35rem;
     background-color: #F5ECE0;
     list-style: none;
     display: flex;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 2.2rem;
+    gap: 2rem;
 
 }
 #listitems{
-    height: 35rem;
-    width: 24rem;
+    height: 30rem;
+    width: 20rem;
     color: black;
     border:none;
     /* display: flex;
@@ -246,23 +248,23 @@ h3{
 
 }
 #boyImg{
-    height: 35rem;
-    width: 24rem;
+    height: 30rem;
+    width: 20rem;
 
 }
 #girlImg{
-    height: 35rem;
-    width: 24rem;
+    height: 30rem;
+    width: 20rem;
 
 }
 #newBornImg{
-    height: 35rem;
-    width: 24rem;
+    height: 30rem;
+    width: 20rem;
 
 }
 #premiumImg{
-    height: 35rem;
-    width: 24rem;
+    height: 30rem;
+    width: 20rem;
 
 }
 #premiumImg:hover{
@@ -287,4 +289,59 @@ h3{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.519);
     transition: 0.3s ease;
 }
+#topCollection{
 
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+#topCollectionItems{
+    list-style: none;
+    /* background-color: black; */
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    height: 21rem;
+    width: 18rem;
+}
+#collectionHeading{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+#topColectionImg{
+    width: 18rem;
+    height: 20rem;
+    background-color: #a9a29a;
+}
+#descriptionBox{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+
+    "wdth" 100;
+    gap: 15rem;
+
+}
+#first{
+   color: #969696 ;
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+#second{
+    font-size: 1rem;
+    font-weight: 480;
+}
+#third{
+    color: red;
+    font-size: 1rem;
+    font-weight: 480;
+}
